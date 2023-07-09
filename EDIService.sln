@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EDIService", "EDIService\EDIService.vbproj", "{65236658-6925-4A2A-AC04-9AC8F623A45C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EDIServiceSetup", "EDIServiceSetup\EDIServiceSetup.vdproj", "{353F811D-DA9A-4DB8-968E-69CB537D8D0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Debug|x64.ActiveCfg = Debug|x64
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Debug|x64.Build.0 = Debug|x64
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Release|x64.ActiveCfg = Release|x64
+		{65236658-6925-4A2A-AC04-9AC8F623A45C}.Release|x64.Build.0 = Release|x64
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Debug|Any CPU.ActiveCfg = Debug
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Debug|Any CPU.Build.0 = Debug
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Debug|x64.ActiveCfg = Debug
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Release|Any CPU.ActiveCfg = Release
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Release|Any CPU.Build.0 = Release
+		{353F811D-DA9A-4DB8-968E-69CB537D8D0E}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1356F5B-571D-47FC-B4EA-43A1DFEF5B7F}
+	EndGlobalSection
+EndGlobal
