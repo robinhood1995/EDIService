@@ -7,6 +7,19 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EDIService", "EDIService\ED
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EDIServiceSetup", "EDIServiceSetup\EDIServiceSetup.vdproj", "{353F811D-DA9A-4DB8-968E-69CB537D8D0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{B4519CFB-A669-4E02-A7F3-F0265862E77C}"
+	ProjectSection(SolutionItems) = preProject
+		..\CSCFileService\Changes.md = ..\CSCFileService\Changes.md
+		..\CSCFileService\License.md = ..\CSCFileService\License.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{879FADCC-AAC4-48EA-8930-5ACF2F6C2FC3}"
+	ProjectSection(SolutionItems) = preProject
+		..\CSCFileService\.github\FUNDING.yml = ..\CSCFileService\.github\FUNDING.yml
+		..\CSCFileService\.github\ISSUE_TEMPLATE.md = ..\CSCFileService\.github\ISSUE_TEMPLATE.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +45,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{879FADCC-AAC4-48EA-8930-5ACF2F6C2FC3} = {B4519CFB-A669-4E02-A7F3-F0265862E77C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1356F5B-571D-47FC-B4EA-43A1DFEF5B7F}
