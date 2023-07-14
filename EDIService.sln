@@ -9,15 +9,15 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EDIServiceSetup", "EDIServi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{B4519CFB-A669-4E02-A7F3-F0265862E77C}"
 	ProjectSection(SolutionItems) = preProject
-		..\CSCFileService\Changes.md = ..\CSCFileService\Changes.md
-		..\CSCFileService\License.md = ..\CSCFileService\License.md
+		Changes.md = Changes.md
+		License.md = License.md
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{879FADCC-AAC4-48EA-8930-5ACF2F6C2FC3}"
 	ProjectSection(SolutionItems) = preProject
-		..\CSCFileService\.github\FUNDING.yml = ..\CSCFileService\.github\FUNDING.yml
-		..\CSCFileService\.github\ISSUE_TEMPLATE.md = ..\CSCFileService\.github\ISSUE_TEMPLATE.md
+		.github\FUNDING.yml = .github\FUNDING.yml
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
 	EndProjectSection
 EndProject
 Global
